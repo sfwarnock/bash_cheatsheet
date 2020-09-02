@@ -13,3 +13,14 @@ $ free -h
 $ cat /proc/meminfo | head -1
 $ head -1 /proc/meminfo
 $ rpm -qi basesystem
+
+'Lustre File System'
+$lfs getstripe 'get stipe count OST count'
+$lfs getstripe -d ''
+$lfs getstripe -r ''
+$lfs setstripe 'configure striping'
+$lfs setstripe -c ''
+$lfs setstripe -s ''
+
+'Gitlab'
+$ git branch -a
