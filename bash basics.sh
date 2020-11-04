@@ -13,11 +13,15 @@ $ free -h
 $ cat /proc/meminfo | head -1
 $ head -1 /proc/meminfo
 $ rpm -qi basesystem
+$ mywcid 'see my WCIDs'
+
 
 'Lustre File System'
 $lfs getstripe 'get stipe count OST count'
 $lfs getstripe -d ''
 $lfs getstripe -r ''
+$lsf df -h
+
 $lfs setstripe 'configure striping'
 $lfs setstripe -c ''
 $lfs setstripe -s ''
