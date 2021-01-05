@@ -10,11 +10,12 @@ $ df -h/tmp 'Check on specific file system'
 $ df -h /ram/tmp
 $ lscpu 'arch look'
 $ free -h
+$ cat 'Display contents of file'
 $ cat /proc/meminfo | head -1
 $ head -1 /proc/meminfo
 $ rpm -qi basesystem
 $ mywcid 'see my WCIDs'
-
+$ grep 'Search for pattern'
 
 'Lustre File System'
 $lfs getstripe 'get stipe count OST count'
