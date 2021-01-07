@@ -2,6 +2,7 @@ $ module avil (module) 'Show which modules are avaliable'
 $ groups 'Identify which user groups assgined'
 $ cd 'Change Directory'
 $ cd - 'Go Back'
+$ export 
 $ ls 'List Files'
 $ ls -l 'List Files with details'
 $ ssh (platform name)
@@ -30,3 +31,4 @@ $lfs setstripe -s ''
 
 'Gitlab'
 $ git branch -a
+$ git clone (path) 'clone repo'
