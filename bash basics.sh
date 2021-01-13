@@ -1,8 +1,9 @@
 $ module avil (module) 'Show which modules are avaliable'
+$ bash 'run script'
 $ groups 'Identify which user groups assgined'
 $ cd 'Change Directory'
 $ cd - 'Go Back'
-$ export 
+$ export
 $ ls 'List Files'
 $ ls -l 'List Files with details'
 $ ssh (platform name)
