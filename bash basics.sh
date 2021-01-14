@@ -1,3 +1,6 @@
+up_arrow 'get last commands'
+
+nano .bashrc (access rc file)
 module avil (module) 'Show which modules are avaliable'
 bash 'run script'
 groups 'Identify which user groups assgined'
@@ -38,3 +41,4 @@ lfs setstripe -s ''
 'Gitlab'
 git branch -a
 git clone (path) 'clone repo'
+git rebase
