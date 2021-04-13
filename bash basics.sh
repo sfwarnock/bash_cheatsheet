@@ -24,6 +24,8 @@ head -1 /proc/meminfo
 rpm -qi basesystem
 mywcid 'see my WCIDs'
 grep 'Search for pattern'
+envmacports 'load macports'
+sudo port selfupdate 'update macports'
 
 'ADPS'
 rm -rf _build ; ./build_doc.py --html  |& tee output.log 'rebuild'
