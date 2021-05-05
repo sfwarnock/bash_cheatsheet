@@ -2,6 +2,7 @@ up_arrow 'get last commands'
 
 nano .bashrc (access rc file)
 module avil (module) 'Show which modules are avaliable'
+module li 'Show currently loaded modules'
 bash 'run script'
 groups 'Identify which user groups assgined'
 cd 'Change Directory'
@@ -24,8 +25,8 @@ head -1 /proc/meminfo
 rpm -qi basesystem
 mywcid 'see my WCIDs'
 grep 'Search for pattern'
-envmacports 'load macports'
-sudo port selfupdate 'update macports'
+scp -r 'at location' 'to location' copy from one location to another.
+
 
 'ADPS'
 rm -rf _build ; ./build_doc.py --html  |& tee output.log 'rebuild'
