@@ -1,6 +1,9 @@
 #!/bin/bash
 # Version 3.0
 
+# Load environment
+envmacports
+
 #PHASE 0: NOTES
 #if(upgrade_xcode): sudo xcodebuild -license
 
