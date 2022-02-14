@@ -26,7 +26,7 @@ rpm -qi basesystem
 mywcid 'see my WCIDs'
 grep 'Search for pattern'
 scp -r 'at location' 'to location' copy from one location to another.
-
+chmod ugo+rwx 'change permissions'
 
 'ADPS'
 rm -rf _build ; ./build_doc.py --html  |& tee output.log 'rebuild'
